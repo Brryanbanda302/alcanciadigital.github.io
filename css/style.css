@@ -1,0 +1,87 @@
+header {
+    background-color: #09093B;
+    color: white;
+    text-shadow: 0 0 5px #00eaff, 0 0 10px #2200ff, 0 0 20px #8ec9ff, 0 0 30px #ffffff;
+    font-family: Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+section {
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40%;
+    min-width: 300px;
+}
+
+.boton {
+    margin: 10px;
+    background-color: #09093B;
+    color: white;
+    box-shadow: 0 0 5px #00eaff, 0 0 10px #2200ff, 0 0 20px #8ec9ff, 0 0 30px #ffffff;
+    font-family: Times, serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #150480;
+    box-shadow: 0 0 10px #00eaff, 0 0 15px #2200ff, 0 0 25px #8ec9ff, 0 0 35px #ffffff;
+}
+
+body {
+    background-image: url('../images/bann.png');
+    background-size: cover;
+
+}
+
+.acciones .retirar {
+    margin: 10px;
+    background-color: #09093B;
+    color: white;
+    box-shadow: 0 0 5px #00eaff, 0 0 10px #2200ff, 0 0 20px #8ec9ff, 0 0 30px #ffffff;
+    font-family: Times, serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.acciones .retirar:hover {
+    background-color: #150480;
+    box-shadow: 0 0 10px #00eaff, 0 0 15px #2200ff, 0 0 25px #8ec9ff, 0 0 35px #ffffff;
+}
+
+.tablaa {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tablaa th,
+.tablaa td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.tablaa th {
+    background-color: #09093B;
+    font-weight: bold;
+    color: white;
+}

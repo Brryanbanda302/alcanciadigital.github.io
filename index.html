@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCANCÍA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logoAlc.png" alt="logo" class="logo me-3 ">
+        <h1><strong>ALCANCÍA DIGITAL</strong></h1>
+        <p><strong>TU DINERO ESTÁ SEGURO CON NOSOTROS</strong></p>
+    </header>
+    <section class="contenedor">
+        <h2><strong>INGRESA EL DINERO QUE QUIERES GUARDAR EN TU CUENTA</strong></h2>
+        <div class="botones">
+            <button class="boton"><strong>1</strong></button>
+            <button class="boton"><strong>2</strong></button>
+            <button class="boton"><strong>5</strong></button>
+            <button class="boton"><strong>10</strong></button>
+            <button class="boton"><strong>20</strong></button>
+            <button class="boton"><strong>50</strong></button>
+            <button class="boton"><strong>100</strong></button>
+            <button class="boton"><strong>200</strong></button>
+            <button class="boton"><strong>500</strong></button>
+        </div>
+        <hr>
+        <div>
+            <h2><strong>TU SALDO ACTUAL ES:</strong></h2>
+            <p class="saldo"><strong>$0</strong></p>
+
+        </div>
+        <hr>
+        <div class="retiro">
+            <h2><strong>INGRESA EL DINERO QUE QUIERES RETIRAR DE TU CUENTA</strong></h2>
+            <label for="tasa"><strong>CUANTO DINERO QUIERES RETIRAR:</strong></label>
+            <input type="number" id="tasa" required>
+        </div>
+        <div class="acciones">
+            <button class="retirar"><strong>RETIRAR DINERO</strong></button>
+        </div>
+        <hr>
+        <div>
+            <h2><strong>SALDO RESTANTE:</strong></h2>
+            <p class="saldoRestante"><strong>$0</strong></p>
+        </div>
+        <hr>
+        <div>
+            <h2><strong>ACCIONES REALIZADAS EN TU CUENTA</strong></h2>
+
+            <table class="tablaa">
+                <thead>
+                    <tr>
+                        <th>ACCIÓN</th>
+                        <th>CANTIDAD</th>
+                    </tr>
+                </thead>
+                <tbody id="listaMovimientos">
+                </tbody>
+            </table>
+        </div>
+
+
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
